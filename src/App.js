@@ -1,21 +1,18 @@
 import style from './App.module.css';
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
-import Home from "./Navbar/Home";
-import About from "./Navbar/About";
-import Portfolio from "./Navbar/Portfolio";
-import Contact from "./Navbar/Contact";
-import Blog from "./Navbar/Blog";
-import {Navbar} from "./Navbar";
+import Home from "./Components/navbar/Home";
+import About from "./Components/navbar/About";
+import Portfolio from "./Components/navbar/Portfolio";
+import Contact from "./Components/navbar/Contact";
+import Blog from "./Components/navbar/Blog";
+import Header from "./Components/Header";
 
 function App() {
     return (
         <BrowserRouter>
             <div className={style.all}>
-                <div className={style.ava}>img</div>
-                <div className={style.text}>text</div>
-                <div className={style.navbar}><Navbar/></div>
-                <div>
+                <span className={style.display}>
                     <Route path='/home'
                            render={() => <Home/>}/>
                     <Route path='/about'
@@ -26,7 +23,10 @@ function App() {
                            render={() => <Contact/>}/>
                     <Route path='/blog'
                            render={() => <Blog/>}/>
-                </div>
+                </span>
+                <span className={style.header}>
+                    <Header/>
+                </span>
             </div>
         </BrowserRouter>
     );
