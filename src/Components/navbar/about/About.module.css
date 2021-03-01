@@ -1,0 +1,92 @@
+.all {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.title {
+    font-size: 110px;
+    letter-spacing: 10px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.07);
+    display: flex;
+    text-align: center;
+
+}
+.header h1 {
+    margin: 100px 0;
+    font-size: 65px;
+    line-height: 0.7;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.profInfo {
+border: 1px white dashed;
+    display: flex;
+    color: white;
+    width: 100%;
+}
+.profInfoTitle{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.profInfoDiv{
+    display: flex;
+}
+.profInfoText {
+border: 1px white solid;
+    color: white;
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: -webkit-match-parent;
+    display: flex;
+    list-style: none;
+}
+.profInfoText ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+li{
+    margin-bottom: 10px;
+}
+.liTitle {
+    opacity: .8;
+    text-transform: capitalize;
+}
+.liValue {
+    font-weight: 600;
+}
+.profInfoBoxDiv {
+width: 100%;
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+    margin-top: 0;
+}
+.profInfoBox {
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.skills {
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+}

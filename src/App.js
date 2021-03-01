@@ -1,8 +1,8 @@
 import style from './App.module.css';
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
-import Home from "./Components/navbar/Home";
-import About from "./Components/navbar/About";
+import Home from "./Components/navbar/Home/Home";
+import About from "./Components/navbar/about/About";
 import Portfolio from "./Components/navbar/Portfolio";
 import Contact from "./Components/navbar/Contact";
 import Blog from "./Components/navbar/Blog";

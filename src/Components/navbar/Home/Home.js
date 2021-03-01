@@ -1,10 +1,11 @@
 import React from "react";
 import style from "./Home.module.css"
+import photo from "../../../assets/img/ava1.jpg"
 
 function Home() {
     return (
         <div className={style.container}>
-            <div className={style.ava}>img</div>
+            <div className={style.ava}><img src={photo} alt={"I"}/></div>
             <div className={style.text}>
                 <h3>HI THERE !</h3>
                 <h1><span>I'M</span> PAVEL VAVILIN</h1>
