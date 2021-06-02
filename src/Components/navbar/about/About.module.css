@@ -16,8 +16,12 @@
     color: rgba(255, 255, 255, 0.07);
     display: flex;
     text-align: center;
-
 }
+
+.header span {
+    color: #ffc107;
+}
+
 .header h1 {
     margin: 100px 0;
     font-size: 65px;
@@ -25,23 +29,41 @@
     font-weight: 900;
     text-transform: uppercase;
     width: 100%;
+    color: white;
 }
 
 .profInfo {
-border: 1px white dashed;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px white dashed;
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    width: 100%;
+    font-size: 20px;
 }
-.profInfoTitle{
+
+.profInfoTitle {
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-.profInfoDiv{
+
+.profInfoTitle h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profInfoDiv {
     display: flex;
 }
+
 .profInfoText {
-border: 1px white solid;
+    border: 1px white solid;
     color: white;
     padding: 0 15px;
     font-family: 'Poppins', sans-serif;
@@ -49,31 +71,41 @@ border: 1px white solid;
     font-weight: 500;
     line-height: 1.6;
     text-align: -webkit-match-parent;
-    display: flex;
     list-style: none;
+    margin-bottom: 15px;
 }
+
 .profInfoText ul {
     list-style: none;
     padding-left: 0;
     margin: 0;
 }
-li{
-    margin-bottom: 10px;
+
+li {
+    display: flex;
+
+    padding-bottom: 20px;
 }
+
 .liTitle {
     opacity: .8;
     text-transform: capitalize;
 }
+
 .liValue {
     font-weight: 600;
 }
+
 .profInfoBoxDiv {
-width: 100%;
+    width: 100%;
     padding: 20px 30px 25px 40px;
     border-radius: 5px;
     border: 1px solid #252525;
     margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .profInfoBox {
     padding: 20px 30px 25px 40px;
     border-radius: 5px;
@@ -81,12 +113,20 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 
+.profInfoBox h3 {
+    color: #ffb400;
+}
+.profInfoText {
+    font-size: small;
+}
 .skills {
     width: 100%;
     height: 100%;
     background-color: #111111;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap
 }

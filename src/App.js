@@ -12,6 +12,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className={style.all}>
+
                 <span className={style.display}>
                     <Route path='/home'
                            render={() => <Home/>}/>
