@@ -5,21 +5,21 @@ import {NavLink} from "react-router-dom";
 
 export const Navbar = () => {
     return (
-        <nav className={s.nav} >
-            <div>
+        <ul className={s.nav} >
+            <li className={s.li}>
                 <NavLink to='/home' activeClassName={s.activeLink}>HOME</NavLink>
-            </div>
-            <div>
+            </li>
+            <li className={s.li}>
                 <NavLink to='/about' activeClassName={s.activeLink}>ABOUT</NavLink>
-            </div>
-            <div >
+            </li>
+            <li className={s.li}>
                 <NavLink to='/portfolio' activeClassName={s.activeLink}>PORTFOLIO</NavLink>
-            </div>
-            <div>
+            </li>
+            <li className={s.li}>
                 <NavLink to='/contact' activeClassName={s.activeLink}>CONTACT</NavLink>
-            </div>
-            <div>
+            </li>
+            <li className={s.li}>
                 <NavLink to='/blog' activeClassName={s.activeLink}>BLOG</NavLink>
-            </div>
-        </nav>
+            </li>
+        </ul>
     )}
