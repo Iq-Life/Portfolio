@@ -1,12 +1,12 @@
 import style from './App.module.css';
 import React from "react";
 import {BrowserRouter, Route} from "react-router-dom";
-import Home from "./Components/navbar/home/Home";
-import About from "./Components/navbar/about/About";
-import Portfolio from "./Components/navbar/Portfolio";
-import Contact from "./Components/navbar/Contact";
-import Blog from "./Components/navbar/Blog";
-import Header from "./Components/Header";
+import Home from "./сomponents/navbar/home/Home";
+import About from "./сomponents/navbar/about/About";
+import Portfolio from "./сomponents/navbar/Portfolio";
+import Contact from "./сomponents/navbar/Contact";
+import Blog from "./сomponents/navbar/Blog";
+import {Navbar} from "./сomponents/Navbar";
 
 function App() {
     return (
@@ -26,7 +26,7 @@ function App() {
                            render={() => <Blog/>}/>
                 </span>
                 <span className={style.header}>
-                    <Header/>
+                    <Navbar />
                 </span>
             </div>
         </BrowserRouter>

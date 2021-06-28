@@ -1,0 +1,36 @@
+.item a.activeLink {
+    color: Cyan;
+}
+.nav {
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    top: 100px;
+    opacity: 1;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+.li {
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    margin: 15px 0;
+    padding: 0;
+    border-radius: 50%;
+    background: #2b2a2a;
+
+}
+.a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
