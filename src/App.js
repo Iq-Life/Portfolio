@@ -4,7 +4,7 @@ import {BrowserRouter, Route} from "react-router-dom";
 import Home from "./сomponents/navbar/home/Home";
 import About from "./сomponents/navbar/about/About";
 import Projects from "./сomponents/navbar/Project/Projects";
-import Contact from "./сomponents/navbar/Contact";
+import Contact from "./сomponents/navbar/contact/Contact";
 import Blog from "./сomponents/navbar/Blog";
 import {Navbar} from "./сomponents/Navbar";
 
