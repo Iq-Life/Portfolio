@@ -1,16 +1,21 @@
 .all {
-    width: 250px;
+    min-height: 80vh;
+    background-color: #111;
+    width: 100%;
 }
 .icon {
-width: 60px;
+    width: 60px;
     height: 60px;
     background-color: #ffc107;
 }
-
 .title {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.text {
-
+.title h2 span {
+    color: #ffc107;
+}
+.blockSkills {
+border: 1px solid white;
 }

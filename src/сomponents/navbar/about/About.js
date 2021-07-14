@@ -51,6 +51,7 @@ function About() {
             </div>
         </div>
         </div>
+        <Skills/>
     </div>
     )
 }

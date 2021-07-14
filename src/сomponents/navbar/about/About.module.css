@@ -8,7 +8,7 @@
     font-size: 15px;
 }
 .block1 {
-    height: 80vh;
+    min-height: 80vh;
 }
 .title{
     display: flex;
