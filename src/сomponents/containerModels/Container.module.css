@@ -1,3 +1,14 @@
+.page{
+    color: white;
+    min-height: 100vh;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
 .title{
     display: flex;
     justify-content: center;
@@ -21,13 +32,4 @@
     letter-spacing: 10px;
     position: absolute;
     color: rgba(255, 255, 255, 0.07);
-}
-.page{
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
 }

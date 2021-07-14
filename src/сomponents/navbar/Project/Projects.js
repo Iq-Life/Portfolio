@@ -10,16 +10,16 @@ function Projects() {
                 <div className={container.backTitle}>WORKS</div>
             </div>
             <div className={s.projectsBlock}>
-                <div >
-                    <div >
-                        <a > Посмотреть </a>
+                <div className={s.project}>
+                    <div className={s.imgProject}>
+                        <a className={s.buttonProject}> Посмотреть </a>
                     </div>
                     <h3>SocialNetwork</h3>
                     <p>detailed description of the project</p>
                 </div>
-                <div >
-                    <div >
-                        <a > Посмотреть </a>
+                <div className={s.project}>
+                    <div className={s.imgProject}>
+                        <a className={s.buttonProject}> Посмотреть </a>
                     </div>
                     <h3>Todolist</h3>
                     <p>detailed description of the project</p>
