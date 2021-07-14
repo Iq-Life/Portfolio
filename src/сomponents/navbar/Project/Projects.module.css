@@ -1,0 +1,8 @@
+.projectsBlock{
+    border: white 1px solid;
+    width: 80%;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

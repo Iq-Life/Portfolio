@@ -3,11 +3,7 @@
     background-color: #111;
     width: 100%;
 }
-.icon {
-    width: 60px;
-    height: 60px;
-    background-color: #ffc107;
-}
+
 .title {
     display: flex;
     justify-content: center;
@@ -17,5 +13,20 @@
     color: #ffc107;
 }
 .blockSkills {
-border: 1px solid white;
+    border: 1px solid white;
+    margin: auto 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ffc107;
 }

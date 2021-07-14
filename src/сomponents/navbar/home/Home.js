@@ -16,10 +16,10 @@ function Home() {
                         that is, the external public part of the site in the browser.
                         I am passionate about making great software that will improve the lives of the people around
                         me.</p>
+                    <button>about me</button>
                 </div>
-
             </div>
-            <button>about me</button>
+
         </div>
     )
 }

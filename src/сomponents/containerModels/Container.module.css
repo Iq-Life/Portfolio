@@ -1,0 +1,33 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+.title span {
+    color: #ffc107;
+}
+.title h1 {
+    font-size: 60px;
+    line-height: 0.7;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 45px;
+}
+.backTitle {
+    font-size: 110px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.07);
+}
+.page{
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
