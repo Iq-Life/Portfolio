@@ -8,7 +8,7 @@ function Home() {
             <div className={style.block}>
                 <div className={style.ava}></div>
                 <div className={style.text}>
-                    <h1 className={style.h}>I'M PAVEL VAVILIN.
+                    <h1 className={style.h}>- I'M PAVEL VAVILIN.
 
                     </h1>
                     <span>FRONT END DEVELOPER</span>

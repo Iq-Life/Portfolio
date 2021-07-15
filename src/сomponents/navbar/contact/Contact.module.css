@@ -1,0 +1,42 @@
+.block1{
+display: flex;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 0.6;
+}
+.ulContact {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+.contactForm{
+    display: flex;
+    border: 1px solid #111;
+    width: 100%;
+    background: #252525;
+    color: #fff;
+    padding: 11px 26px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    outline: none !important;
+    transition: .3s;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+
+/*button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}*/
+button, input {
+    overflow: visible;
+}
