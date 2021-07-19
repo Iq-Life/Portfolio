@@ -12,7 +12,7 @@ function Home() {
 
                     </h1>
                     <span>FRONT END DEVELOPER</span>
-                    <p>I am a front-end developer from Russia, specializing in the development of the user interface,
+                    <p className={style.p}>I am a front-end developer from Russia, specializing in the development of the user interface,
                         that is, the external public part of the site in the browser.
                         I am passionate about making great software that will improve the lives of the people around
                         me.</p>

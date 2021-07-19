@@ -50,6 +50,11 @@
     font-size: 40px;
     line-height: 40px;
 }
+.p {
+    margin: 15px 0 28px;
+    font-size: 16px;
+    line-height: 25px;
+}
 @media screen and (max-width: 750px){
     .block {
         display: flex;
