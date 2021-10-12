@@ -70,27 +70,28 @@ button, input {
     overflow: visible;
 }*/
 .block2 {
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+
 }
 .form{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+
 }
 .contactForm{
-    display: flex;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px minmax(min-content, max-content);
+    column-gap: 20px;
+    row-gap: 30px;
 }
 .in{
-
+    flex: 0 0 100%;
+    max-width: 100%;
 }
-textarea{
+.textarea{
+    grid-column: 1/4;
+    grid-row: 2/3;
     border: 1px solid #111;
     background: #252525;
     color: #fff;
-    width: 100%;
     padding: 12px 26px;
     margin-bottom: 20px;
     height: 160px;
@@ -106,7 +107,6 @@ input, textarea {
     padding: 11px 26px;
     margin-bottom: 30px;
     border-radius: 30px;
-    width: 100%;
 }
 button, input {
 

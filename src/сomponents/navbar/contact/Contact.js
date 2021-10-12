@@ -14,7 +14,8 @@ function Contact() {
                 <div className={s.block1}>
                     <div>
                         <h3>DON'T BE SHY !</h3>
-                        <p className={s.p}>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                        <p className={s.p}>Feel free to get in touch with me. I am always open to discussing new
+                            projects, creative ideas or opportunities to be part of your visions.</p>
                         <p><span className={container.liTitle}>MAIL ME </span></p>
                         <p><span className={container.liValue}>iq23life@gmail.com</span></p>
                         <p><span className={container.liTitle}>CALL ME </span></p>
@@ -33,17 +34,18 @@ function Contact() {
                             <div className={s.in}><input type="text" name="name" placeholder="YOUR NAME"/></div>
                             <div className={s.in}><input type="email" name="email" placeholder="YOUR EMAIL"/></div>
                             <div className={s.in}><input type="text" name="subject" placeholder="YOUR SUBJECT"/></div>
+                            <div className={s.in}><textarea className={s.textarea} name="message" placeholder="YOUR MESSAGE"/>
+                                <button>Send</button>
+                            </div>
                         </div>
-                        <div className={s.textarea}><textarea name="message" placeholder="YOUR MESSAGE"/>
-                            <button></button>
-                        </div>
+
                         <div className={s.div}><span></span></div>
                     </div>
                 </div>
             </div>
 
         </div>
-    )
+    );
 }
 
 export default Contact
