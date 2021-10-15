@@ -8,7 +8,12 @@
 .project{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.projectText{
+    background-color: #252525;
+    padding: 5px;
 }
 .imgProject {
     width: 100%;
