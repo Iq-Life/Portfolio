@@ -1,6 +1,5 @@
 .profInfo {
     margin: auto 0;
-    border: 1px white dashed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +17,6 @@
     display: flex;
 }
 .profInfoText {
-    border: 1px white solid;
     color: white;
     padding: 0 15px;
     font-family: 'Poppins', sans-serif;
@@ -42,4 +40,13 @@ li {
 
 .liValue {
     font-weight: 600;
+}
+@media screen and (max-width: 750px){
+    .profInfoDiv {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 510px){
+
 }

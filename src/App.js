@@ -3,9 +3,8 @@ import React from "react";
 import {HashRouter, Route, Switch} from "react-router-dom";
 import Home from "./сomponents/navbar/home/Home";
 import About from "./сomponents/navbar/about/About";
-import Projects from "./сomponents/navbar/Project/Projects";
+import Portfolio from "./сomponents/navbar/project/Portfolio";
 import Contact from "./сomponents/navbar/contact/Contact";
-import Blog from "./сomponents/navbar/Blog";
 import {Navbar} from "./сomponents/Navbar";
 
 const PATH = {
@@ -13,7 +12,6 @@ const PATH = {
     About: '/about',
     Projects: '/projects',
     Contact: '/contact',
-    Blog: '/blog',
 }
 
 function App() {
@@ -28,11 +26,9 @@ function App() {
                     <Route path={PATH.About}
                            render={() => <About/>}/>
                     <Route path={PATH.Projects}
-                           render={() => <Projects/>}/>
+                           render={() => <Portfolio/>}/>
                     <Route path={PATH.Contact}
                            render={() => <Contact/>}/>
-                    <Route path={PATH.Blog}
-                           render={() => <Blog/>}/>
                         </Switch>
                 </span>
                 <span className={style.header}>

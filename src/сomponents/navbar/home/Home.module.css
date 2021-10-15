@@ -6,6 +6,7 @@
     margin-right: 100px;
     flex-direction: column;
 }
+
 .block {
     display: flex;
     justify-content: center;
@@ -13,7 +14,8 @@
     flex-wrap: wrap;
     z-index: 111;
 }
-.colorBlock{
+
+.colorBlock {
     position: fixed;
     height: 200%;
     width: 100%;
@@ -22,6 +24,7 @@
     top: -50%;
     background-color: #ffb400;
 }
+
 .ava {
     background-image: url(../../../assets/img/ava1.jpg);
     background-size: cover;
@@ -33,6 +36,7 @@
     box-shadow: 0 0 7px rgb(0 0 0 / 90%);
     margin: auto;
 }
+
 .text {
     color: #fff;
     line-height: 30px;
@@ -40,22 +44,26 @@
     font-family: 'Open Sans', sans-serif;
     margin: auto;
 }
+
 .h {
     color: #ffc107;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 0;
 }
-.text span {
-    font-size: 40px;
-    line-height: 40px;
+
+.textSpan {
+    font-size: 30px;
+    line-height: 30px;
 }
+
 .p {
     margin: 15px 0 28px;
     font-size: 16px;
     line-height: 25px;
 }
-@media screen and (max-width: 750px){
+
+@media screen and (max-width: 750px) {
     .block {
         display: flex;
         flex-direction: column;
@@ -63,6 +71,7 @@
         align-items: center;
         flex-wrap: wrap;
     }
+
     .ava {
         background-image: url(../../../assets/img/ava1.jpg);
         background-size: cover;
@@ -74,7 +83,8 @@
         box-shadow: 0 0 7px rgb(0 0 0 / 90%);
         margin: auto;
     }
-    .colorBlock{
+
+    .colorBlock {
         position: fixed;
         height: 200%;
         width: 100%;
@@ -83,6 +93,7 @@
         top: -50%;
         background-color: #111;
     }
+
     .text {
         color: #fff;
         line-height: 25px;
@@ -90,18 +101,21 @@
         font-family: 'Open Sans', sans-serif;
         margin: auto;
     }
+
     .h {
         color: #ffc107;
         font-size: 35px;
         line-height: 40px;
         margin-bottom: 0;
     }
+
     .text span {
         font-size: 35px;
         line-height: 35px;
     }
 }
-@media screen and (max-width: 510px){
+
+@media screen and (max-width: 510px) {
     .block {
         display: flex;
         flex-direction: column;
@@ -110,6 +124,7 @@
         flex-wrap: wrap;
         height: auto;
     }
+
     .ava {
         background-image: url(../../../assets/img/ava1.jpg);
         background-size: cover;
@@ -121,7 +136,8 @@
         box-shadow: 0 0 7px rgb(0 0 0 / 90%);
         margin: 20px;
     }
-    .colorBlock{
+
+    .colorBlock {
         position: fixed;
         height: 200%;
         width: 100%;
@@ -130,6 +146,7 @@
         top: 10%;
         background-color: #111;
     }
+
     .text {
         color: #fff;
         line-height: 10px;
@@ -137,16 +154,19 @@
         font-family: 'Open Sans', sans-serif;
         margin: 20px;
     }
+
     .h {
         color: #ffc107;
         font-size: 15px;
         line-height: 25px;
         margin-bottom: 0;
     }
+
     .text span {
         font-size: 15px;
         line-height: 15px;
     }
+
     p {
         font-size: 14px;
         line-height: 28px;
