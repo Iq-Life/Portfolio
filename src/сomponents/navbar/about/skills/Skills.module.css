@@ -1,36 +1,18 @@
-.all {
-    min-height: 80vh;
-    background-color: #111;
-    width: 100%;
-}
-
-.title {
-    margin-top: 100px ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.title h2 span {
-    color: #ffc107;
-}
-.blockSkills {
-    margin: auto 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 .skill {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 25px;
 }
+
 .icon {
     width: 60px;
     height: 60px;
     background-color: #ffc107;
 }
-@media screen and (max-width: 750px){
+
+@media screen and (max-width: 750px) {
     .profInfoDiv {
         display: flex;
         flex-wrap: wrap;

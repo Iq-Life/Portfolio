@@ -52,7 +52,17 @@ function About() {
                     </div>
                 </div>
             </div>
-            <Skills/>
+            <div className={s.titleSkill}>
+                <h2><span className={s.titleSpan}>MY</span> SKILLS</h2>
+            </div>
+            <div className={s.blockSkills}>
+                <Skills title={"JavaScript"} text={"dfsdfsdfs"}/>
+                <Skills title={"TypeScript"} text={"dsfsdfsdfsdf"}/>
+                <Skills title={"HTML"} text={"gdfhfghd"}/>
+                <Skills title={"CSS"} text={"fgdfgd"}/>
+                <Skills title={"React"} text={"sdfsdfsdfsdf"}/>
+            </div>
+
         </div>
     )
 }

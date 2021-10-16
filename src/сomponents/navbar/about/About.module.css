@@ -41,6 +41,21 @@ li {
 .liValue {
     font-weight: 600;
 }
+.titleSkill {
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleSpan {
+    color: #ffc107;
+}
+.blockSkills {
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 @media screen and (max-width: 750px){
     .profInfoDiv {
         display: flex;
