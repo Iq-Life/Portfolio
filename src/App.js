@@ -18,9 +18,7 @@ function App() {
     return (
         <HashRouter>
             <div className={style.all}>
-
-                <span className={style.display}>
-                    <Switch>
+                <Switch>
                     <Route path='/' exact render={() => <Home/>}/>
                     <Route path={PATH.Home} render={() => <Home/>}/>
                     <Route path={PATH.About}
@@ -29,11 +27,8 @@ function App() {
                            render={() => <Portfolio/>}/>
                     <Route path={PATH.Contact}
                            render={() => <Contact/>}/>
-                        </Switch>
-                </span>
-                <span className={style.header}>
-                    <Navbar/>
-                </span>
+                </Switch>
+                <Navbar/>
             </div>
         </HashRouter>
     );

@@ -16,15 +16,13 @@ const SuperButton= (
 
 
     return (
-        <a className={finalClassNameButton}
-                {...restProps}
-        >
+        <button className={finalClassNameButton} {...restProps}>
             <span className={finalClassNameSpanTop}/>
             <span className={finalClassNameSpanRight}/>
             <span className={finalClassNameSpanBottom}/>
             <span className={finalClassNameSpanLeft}/>
             {title}
-        </a>
+        </button>
     )
 }
 

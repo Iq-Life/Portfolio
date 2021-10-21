@@ -1,15 +1,15 @@
 import React from "react";
-import s from "./Projects.module.css";
-import SuperButton from "../../containerModels/SuperButton/SuperButton.js";
+import s from "./Projects.module.scss";
+import SuperButton from "../../containerModels/button for project/SuperButton.js";
 
 export const Project = (props) => {
 
     return(
         <div className={s.project}>
                 <div className={s.imgProject} style={props.style}>
-                    <SuperButton title={"посмотреть"}/>
+                    <a href={props.navLink}><SuperButton title={"смотреть"}/></a>
                 </div>
-                <div className={s.projectText}>
+                <div className={s.projectInfo}>
                     <h3>{props.title}</h3>
                     <p>{props.text}detailed description of the project</p>
                 </div>

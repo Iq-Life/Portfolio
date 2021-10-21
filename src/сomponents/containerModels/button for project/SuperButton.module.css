@@ -9,10 +9,11 @@
     text-decoration: none;
     letter-spacing: 1px;
     overflow: hidden;
-    background-color: rgba(37,37,37, 0.7);
+    background-color: rgba(37,37,37, 0.3);
     border: none;
     transition: 0.2s;/* плавность анимации */
     cursor: pointer;
+    z-index: 1;
 }
 
 .button_line {

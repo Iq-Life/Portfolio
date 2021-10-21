@@ -18,6 +18,7 @@
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
+    justify-content: center;
 }
 
 .title {
@@ -52,11 +53,13 @@ li {
     display: block;
     padding-bottom: 20px;
 }
+
 a {
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
 }
+
 .liTitle {
     opacity: .8;
     text-transform: capitalize;
@@ -68,19 +71,14 @@ a {
 
 .button {
     border: 1px solid #ffb400;
-    overflow: hidden;
     display: inline-block;
     line-height: 1.4;
     border-radius: 35px;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    overflow: hidden;
     text-align: center;
     cursor: pointer;
-    vertical-align: middle;
-    user-select: none;
-    transition: 250ms all ease-in-out;
     text-transform: uppercase;
-    text-decoration: none !important;
     position: relative;
     z-index: 1;
     padding: 16px 70px 16px 35px;
@@ -88,11 +86,12 @@ a {
     font-weight: 600;
     color: #fff;
     background-color: transparent;
-    outline: none !important;
 }
+
 .button:before, .button-icon {
     background-color: #ffb400;
 }
+
 .button:before {
     z-index: -1;
     content: '';
@@ -103,7 +102,13 @@ a {
     right: 0;
     transform: translateX(100%);
     transition: .3s ease-out all;
+    border-right: 35px;
 }
+
+.button:hover:before {
+    transform: translateX(0);
+}
+
 .buttonText {
     font-size: 15px;
     position: relative;
@@ -111,6 +116,7 @@ a {
     color: #fff;
     transition: .3s ease-out all;
 }
+
 .buttonIcon {
     background-color: #ffb400;
     position: absolute;
@@ -126,6 +132,7 @@ a {
     color: #ffffff;
     border-radius: 50%;
 }
+
 @media screen and (max-width: 650px) {
     .backTitle {
         font-size: 60px;

@@ -11,16 +11,16 @@ export const Navbar = () => {
     return (
         <ul className={s.nav} >
             <li className={s.li}>
-                <NavLink to='/home' activeClassName={s.activeLink}><img src={home} /></NavLink>
+                <NavLink to='/home' className={s.Link} activeClassName={s.activeLink}> <img src={home} /> <h3 className={s.title}>home</h3></NavLink>
             </li>
             <li className={s.li}>
-                <NavLink to='/about' activeClassName={s.activeLink}><img src={about} /></NavLink>
+                <NavLink to='/about' className={s.Link} activeClassName={s.activeLink}><img src={about} /><h3 className={s.title}>about</h3></NavLink>
             </li>
             <li className={s.li}>
-                <NavLink to='/projects' activeClassName={s.activeLink}><img src={portfolio} /></NavLink>
+                <NavLink to='/projects' className={s.Link} activeClassName={s.activeLink}><img src={portfolio} /><h3 className={s.title}>portfolio</h3></NavLink>
             </li>
             <li className={s.li}>
-                <NavLink to='/contact' activeClassName={s.activeLink}><img src={contact} /></NavLink>
+                <NavLink to='/contact' className={s.Link } activeClassName={s.activeLink}><img src={contact} /><h3 className={s.title}>contact</h3></NavLink>
             </li>
 
         </ul>
