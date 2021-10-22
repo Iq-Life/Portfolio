@@ -6,9 +6,9 @@ import s from "./Container.module.css"
 export function Button (props){
 
     return(
-            <a className={s.button} href={"/about"}>
+            <button className={s.button}>
                 <span className={s.buttonText}>{props.text}</span>
                 <span className={s.buttonIcon}><img src={props.icon} alt={"icon"}/></span>
-            </a>
+            </button>
     )
 }

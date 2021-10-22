@@ -103,23 +103,43 @@
 }*/
 
 @media screen and (max-width: 875px) {
-  .ava {
-    background-image: url(../../../assets/img/ava1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
-    border-radius: 30px;
-    z-index: 1;
-  }
+  .block {
+    justify-content: center;
+    margin: 15px 0;
 
+    .ava {
+      border-radius: 50%;
+      width: 270px;
+      height: 270px;
+      border: 4px solid #252525;
+      background-image: url(../../../assets/img/ava1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: 1;
+      margin-bottom: 20px;
+    }
+
+    .text {
+      width: 350px;
+
+      .h {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      .textSpan {
+        font-size: 15px;
+        line-height: 15px;
+      }
+
+      .p {
+        font-size: 10px;
+        line-height: 18px;
+      }
+    }
+  }
   .colorBlock {
     z-index: -1;
     background-color: #111;
   }
-  .p {
-    font-size: 10px;
-    line-height: 18px;
-  }
-
 }

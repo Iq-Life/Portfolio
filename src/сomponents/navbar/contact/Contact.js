@@ -34,15 +34,13 @@ function Contact() {
                         <div className={s.contactForm}>
                             <div><input className={s.input} type="text" name="name" placeholder="YOUR NAME"/></div>
                             <div><input className={s.input} type="email" name="email" placeholder="YOUR EMAIL"/></div>
-                            <div><input className={s.input} type="text" name="subject" placeholder="YOUR SUBJECT"/>
-                            </div>
-                            <div style={{gridColumn: "1/4"}}><textarea
+                            <div><input className={s.input} type="text" name="subject" placeholder="YOUR SUBJECT"/></div>
+                            <div className={s.divTextarea}><textarea
                                 className={s.textarea} name="message" placeholder="YOUR MESSAGE"/>
                                 <Button text="send message" icon={paperPlane}/>
                             </div>
                         </div>
                     </div>
-                    <br/>
                 </div>
             </div>
 

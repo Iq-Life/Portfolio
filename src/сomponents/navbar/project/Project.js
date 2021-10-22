@@ -7,7 +7,7 @@ export const Project = (props) => {
     return(
         <div className={s.project}>
                 <div className={s.imgProject} style={props.style}>
-                    <a href={props.navLink}><SuperButton title={"смотреть"}/></a>
+                    <a href={props.navLink} target="blank"><SuperButton title={"смотреть"}/></a>
                 </div>
                 <div className={s.projectInfo}>
                     <h3>{props.title}</h3>
