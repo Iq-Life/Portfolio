@@ -9,7 +9,7 @@ import contact from '../assets/img/contat_icon_w.png';
 
 export const Navbar = () => {
     return (
-        <ul className={s.nav} >
+        <ul className={s.nav}>
             <li className={s.li}>
                 <NavLink to='/home' className={s.Link} activeClassName={s.activeLink}>
                     <img src={home} alt={"home"}/>
@@ -18,7 +18,7 @@ export const Navbar = () => {
             </li>
             <li className={s.li}>
                 <NavLink to='/about' className={s.Link} activeClassName={s.activeLink}>
-                    <img src={about}  alt={"about"}/>
+                    <img src={about} alt={"about"}/>
                     <h3 className={s.title}>about</h3>
 
                 </NavLink>
@@ -30,11 +30,12 @@ export const Navbar = () => {
                 </NavLink>
             </li>
             <li className={s.li}>
-                <NavLink to='/contact' className={s.Link } activeClassName={s.activeLink}>
+                <NavLink to='/contact' className={s.Link} activeClassName={s.activeLink}>
                     <img src={contact} alt={"contact"}/>
                     <h3 className={s.title}>contact</h3>
                 </NavLink>
             </li>
 
         </ul>
-    )}
+    )
+}

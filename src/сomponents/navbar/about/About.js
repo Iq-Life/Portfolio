@@ -34,23 +34,23 @@ function About() {
                     <h2>PERSONAL INFOS</h2>
                 </div>
                 <div className={s.profInfoDiv}>
-                        <div className={s.profInfoText}>
-                            <ul>
-                                {liPersonalInfo("First Name", "Pavel")}
-                                {liPersonalInfo("Last Name", "Vavilin")}
-                                {liPersonalInfo("Age", "28")}
-                                {liPersonalInfo("Nationality", "Russian")}
-                                {liPersonalInfo("Freelance", "Available")}
-                            </ul>
-                        </div>
-                        <div className={s.profInfoText}>
-                            <ul>
-                                {liPersonalInfo("Address", "Russia, Penza")}
-                                {liPersonalInfo("Phone", "+7(952)191-29-88")}
-                                {liPersonalInfo("Email", "iq23life@gmail.com")}
-                                {liPersonalInfo("Telegram", "IqLife")}
-                                {liPersonalInfo("languages", "Russian, English")}
-                            </ul>
+                    <div className={s.profInfoText}>
+                        <ul>
+                            {liPersonalInfo("First Name", "Pavel")}
+                            {liPersonalInfo("Last Name", "Vavilin")}
+                            {liPersonalInfo("Age", "28")}
+                            {liPersonalInfo("Nationality", "Russian")}
+                            {liPersonalInfo("Freelance", "Available")}
+                        </ul>
+                    </div>
+                    <div className={s.profInfoText}>
+                        <ul>
+                            {liPersonalInfo("Address", "Russia, Penza")}
+                            {liPersonalInfo("Phone", "+7(952)191-29-88")}
+                            {liPersonalInfo("Email", "iq23life@gmail.com")}
+                            {liPersonalInfo("Telegram", "IqLife")}
+                            {liPersonalInfo("languages", "Russian, English")}
+                        </ul>
                     </div>
                 </div>
                 <Button text="Download CV" icon={downloadCV}/>

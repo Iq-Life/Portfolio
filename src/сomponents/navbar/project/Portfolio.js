@@ -8,9 +8,9 @@ import test from "../../../assets/img/test2.png"
 
 
 function Portfolio() {
-    const keyStyle ={
+    const keyStyle = {
         social: {backgroundImage: `url(${soc})`},
-        todolist:{backgroundImage: `url(${todo})`},
+        todolist: {backgroundImage: `url(${todo})`},
         test: {backgroundImage: `url(${test})`}
     }
 
