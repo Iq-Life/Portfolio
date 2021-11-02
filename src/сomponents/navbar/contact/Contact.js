@@ -26,20 +26,24 @@ function Contact() {
                         <p><span className={container.liValue}>+7 952 191 29 88</span></p>
                         <ul className={s.ulContact}>
                             <li className={s.li}>
+                                <a href="https://www.codewars.com/users/Iq_Life">
                                 <img src={codeWars} alt={"codeWars"}/>
-                                <a href="https://www.codewars.com/users/Iq_Life"/>
+                                </a>
                             </li>
                             <li className={s.li}>
+                                <a href="https://t.me/Iq_Life">
                                 <img className={s.svg} src={telegram} alt={"telegram"}/>
-                                <a href="https://t.me/Iq_Life"/>
+                                </a>
                             </li>
                             <li className={s.li}>
+                                <a href="https://github.com/Iq-Life">
                                 <img src={gitHub} alt={"gitHub"} />
-                                <a href="https://github.com/Iq-Life"/>
+                                    </a>
                             </li>
                             <li className={s.li}>
+                                <a href="https://www.linkedin.com/in/pavel-vavilin-b66299200/">
                                 <img className={s.svg} src={linkedIn} alt={"linkedIn"}/>
-                                <a href="https://www.linkedin.com/in/pavel-vavilin-b66299200/"/>
+                                    </a>
                             </li>
                         </ul>
                     </div>

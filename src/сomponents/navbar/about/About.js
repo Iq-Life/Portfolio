@@ -3,6 +3,7 @@ import s from './About.module.scss';
 import container from '../../containerModels/Container.module.css';
 import {Button} from "../../containerModels/Button";
 import downloadCV from "../../../assets/img/download_icon_w.png"
+import CV from "../../../assets/cv/CV-Vavilin-Pavel-React-Redux.pdf"
 
 function About() {
 
@@ -51,7 +52,9 @@ function About() {
                         </ul>
                     </div>
                 </div>
+                <a href={CV} download={CV} style={{borderRadius: "35px"}}>
                 <Button text="Download CV" icon={downloadCV}/>
+                </a>
             </div>
             <div className={s.titleSkill}>
                 <h2><span className={s.titleSpan}>MY</span> SKILLS</h2>
