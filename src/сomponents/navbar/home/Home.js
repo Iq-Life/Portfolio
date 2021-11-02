@@ -13,13 +13,20 @@ function Home() {
                 <div className={s.ava}/>
                 <div className={s.text}>
                     <h1 className={s.h}>- I'M PAVEL VAVILIN.</h1>
-                    <span className={s.textSpan}>FRONT END DEVELOPER</span>
+                    <span className={s.textSpan}>FRONT-END DEVELOPER</span>
                     <p className={s.p}>
-                        I am a front-end developer from Russia,
-                        specializing in the development of the user interface,
-                        that is, the external public part of the site in the browser.
-                        I am passionate about making great software that will improve
-                        the lives of the people around me.
+                        Front-end developer with experience in creating websites and SPA,
+                        as well as applications using React (JS/TS), Redux, HTML and CSS.
+                        Now I am improving my skills in this direction, expanding them with new technologies.
+                        I will definitely start studying Vue in the future.js and AngularJS.<p/>
+                        I devote my free time to studying documentation
+                        and learning algorithms, solving katas on
+                        Codewars, as well as improving my English
+                        proficiency.<p/>
+                        After working as a freelancer, I would like to find a
+                        full-time project job in a creative company with
+                        relevant tasks and a cohesive team.
+
                     </p>
                     <NavLink to={"/about"}>
                         <Button text="more about me" icon={aboutMe}/>

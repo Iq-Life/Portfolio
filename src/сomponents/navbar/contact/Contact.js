@@ -1,9 +1,12 @@
 import React from "react";
 import container from "../../containerModels/Container.module.css";
-import s from "./Contact.module.css";
+import s from "./Contact.module.scss";
 import {Button} from "../../containerModels/Button";
 import paperPlane from "../../../assets/img/paper_plane_icon_w.png"
-
+import codeWars from '../../../assets/img/brand_codewars.png';
+import telegram from '../../../assets/img/paper-plane_32_w.png';
+import gitHub from '../../../assets/img/github_git.png';
+import linkedIn from '../../../assets/img/linked_in.png';
 function Contact() {
     return (
         <div className={container.page}>
@@ -22,10 +25,22 @@ function Contact() {
                         <p><span className={container.liTitle}>CALL ME </span></p>
                         <p><span className={container.liValue}>+7 952 191 29 88</span></p>
                         <ul className={s.ulContact}>
-                            <li>F</li>
-                            <li>T</li>
-                            <li>E</li>
-                            <li>R</li>
+                            <li className={s.li}>
+                                <img src={codeWars} alt={"codeWars"}/>
+                                <a href="https://www.codewars.com/users/Iq_Life"/>
+                            </li>
+                            <li className={s.li}>
+                                <img className={s.svg} src={telegram} alt={"telegram"}/>
+                                <a href="https://t.me/Iq_Life"/>
+                            </li>
+                            <li className={s.li}>
+                                <img src={gitHub} alt={"gitHub"} />
+                                <a href="https://github.com/Iq-Life"/>
+                            </li>
+                            <li className={s.li}>
+                                <img className={s.svg} src={linkedIn} alt={"linkedIn"}/>
+                                <a href="https://www.linkedin.com/in/pavel-vavilin-b66299200/"/>
+                            </li>
                         </ul>
                     </div>
                 </div>

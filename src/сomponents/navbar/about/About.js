@@ -15,11 +15,9 @@ function About() {
 
     const skill = (title, text) => {
         return (
-            <div className={s.skill}>
-                <span className={s.icon}>img</span>
-                <h3>{title}</h3>
-                <p>{text}</p>
-            </div>
+            <svg className={s.progressRing}>
+                <div className={s.circle}>div*2</div>
+            </svg>
         )
     }
 
@@ -64,6 +62,7 @@ function About() {
                 {skill("HTML", "gdfhfghd")}
                 {skill("CSS", "fgdfgd")}
                 {skill("React", "sdfsdfsdfsdf")}
+                {skill("Redux", "sdfsdfsdfsdf")}
             </div>
         </div>
     )
