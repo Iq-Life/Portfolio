@@ -19,7 +19,6 @@ export const Skill = (props) => {
     }, [count])
 
     return (
-        <div>
             <div className={s.skill}>
                 <div className={s.outer}>
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="130%" height="160%">
@@ -35,9 +34,7 @@ export const Skill = (props) => {
                         <div className={s.number}>{count}%</div>
                     </div>
                 </div>
+                <div className={s.text}>{props.title}</div>
             </div>
-
-
-        </div>
     )
 }

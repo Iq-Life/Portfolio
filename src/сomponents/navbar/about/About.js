@@ -54,12 +54,14 @@ function About() {
                 <h2><span className={s.titleSpan}>MY</span> SKILLS</h2>
             </div>
             <div className={s.blockSkills}>
-                <Skill title="TypeScript" number={65}/>
+                <Skill title="React" number={82}/>
+                <Skill title="Redux" number={82}/>
+                <Skill title="TypeScript" number={73}/>
                 <Skill title="JavaScript" number={65}/>
-                <Skill title="HTML" number={65}/>
-                <Skill title="CSS" number={65}/>
-                <Skill title="React" number={65}/>
-                <Skill title="Redux" number={65}/>
+                <Skill title="HTML" number={58}/>
+                <Skill title="CSS" number={60}/>
+                <Skill title="Storybook" number={68}/>
+                <Skill title="Material UI" number={67}/>
             </div>
             <br/>
             <br/>

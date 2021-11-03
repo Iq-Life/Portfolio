@@ -1,6 +1,6 @@
 
 .skill {
-  margin: 40px 40px;
+  margin: 70px 50px;
   width: 100px;
   height: 100px;
   position: relative;
@@ -9,17 +9,16 @@
     height: 160px;
     width: 160px;
     border-radius: 50%;
-    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
-    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    box-shadow: 6px 6px 10px -1px rgba(255, 180, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 180, 0, 0.7);
 
     svg {
       position: absolute;
-      z-index: 111;
 
       circle {
         fill: none;
         stroke: #ffb400;
-        stroke-width: 20px;
+        stroke-width: 10px;
         stroke-dasharray: 472;
         stroke-dashoffset: 472;
         animation: anim 2s linear forwards;
@@ -34,17 +33,21 @@
       height: 120px;
       width: 120px;
       border-radius: 50%;
-      box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-      inset  -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-      0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-      0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+      box-shadow: inset 4px 4px 6px -1px rgba(255, 180, 0, 0.2),
+      inset  -4px -4px 6px -1px rgba(255, 180, 0, 0.7),
+      -0.5px -0.5px 0px rgba(255, 180, 0, 1),
+      0.5px 0.5px 0px rgba(255, 180, 0, 0.15),
+      0px 12px 10px -10px rgba(255, 180, 0, 0.05);
       .number {
         font-weight: 600;
-        font-size: 12px;
+        font-size: 32px;
         color: #ffb400;
       }
     }
+  }
+  .text{
+    font-size: 18px;
+    margin-top: 5px;
   }
 }
 
