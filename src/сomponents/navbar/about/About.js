@@ -4,6 +4,7 @@ import container from '../../containerModels/Container.module.css';
 import {Button} from "../../containerModels/Button";
 import downloadCV from "../../../assets/img/download_icon_w.png"
 import CV from "../../../assets/cv/CV-Vavilin-Pavel-React-Redux.pdf"
+import {Skill} from "./skill/Skill";
 
 function About() {
 
@@ -14,13 +15,6 @@ function About() {
         )
     }
 
-    const skill = (title, text) => {
-        return (
-            <svg className={s.progressRing}>
-                <div className={s.circle}>div*2</div>
-            </svg>
-        )
-    }
 
     return (
         <div className={container.page}>
@@ -53,20 +47,23 @@ function About() {
                     </div>
                 </div>
                 <a href={CV} download={CV} style={{borderRadius: "35px"}}>
-                <Button text="Download CV" icon={downloadCV}/>
+                    <Button text="Download CV" icon={downloadCV}/>
                 </a>
             </div>
             <div className={s.titleSkill}>
                 <h2><span className={s.titleSpan}>MY</span> SKILLS</h2>
             </div>
             <div className={s.blockSkills}>
-                {skill("JavaScript", "dfsdfsdfs")}
-                {skill("TypeScript", "dsfsdfsdfsdf")}
-                {skill("HTML", "gdfhfghd")}
-                {skill("CSS", "fgdfgd")}
-                {skill("React", "sdfsdfsdfsdf")}
-                {skill("Redux", "sdfsdfsdfsdf")}
+                <Skill title="TypeScript" number={65}/>
+                <Skill title="JavaScript" number={65}/>
+                <Skill title="HTML" number={65}/>
+                <Skill title="CSS" number={65}/>
+                <Skill title="React" number={65}/>
+                <Skill title="Redux" number={65}/>
             </div>
+            <br/>
+            <br/>
+            <br/>
         </div>
     )
 }

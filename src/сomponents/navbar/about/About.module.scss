@@ -52,20 +52,15 @@
 }
 
 .blockSkills {
-  margin: auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.progressRing {
-  width: 120px;
-  height: 120px;
-
-}
-.circle{
-  border: #ffb400 4px solid;
-  border-radius: 50px;
+@keyframes anim {
+  100%{
+    stroke-dashoffset: 0;
+  }
 
 }
 
