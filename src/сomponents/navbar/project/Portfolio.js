@@ -24,18 +24,19 @@ function Portfolio() {
             <div className={s.projectsBlock}>
                 <Project
                     title={"Social Network"}
-                    text={"dsfsdfsdgfsdgdfgsdfgsdf"}
+                    text={"Email: free@samuraijs.com"+" Password: free "}
                     style={keyStyle.social}
-
+                    navLink={"https://Iq-Life.github.io/SocialNetwork#/login/"}
                 />
                 <Project
                     title={"Todolist"}
-                    text={"sfsdfsdfsdfsdfsdfsdfsdfs"}
+                    text={"Email: free@samuraijs.com"+" Password: free "}
                     style={keyStyle.todolist}
+                    navLink={"https://Iq-Life.github.io/Todolist"}
                 />
                 <Project
                     title={"Test tasks"}
-                    text={"sfsdfsdfsdfsdfsdfsdfsdfs"}
+                    text={"Тестовые задачи"}
                     style={keyStyle.test}
                     navLink={"https://iq-life.github.io/React-homework/#/"}
                 />

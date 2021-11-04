@@ -11,7 +11,7 @@ export const Project = (props) => {
             </div>
             <div className={s.projectInfo}>
                 <h3>{props.title}</h3>
-                <p>{props.text}detailed description of the project</p>
+                <p>{props.text}</p>
             </div>
         </div>
     )

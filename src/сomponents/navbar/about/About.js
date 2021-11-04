@@ -58,7 +58,7 @@ function About() {
                 <Skill title="Redux" number={82}/>
                 <Skill title="TypeScript" number={73}/>
                 <Skill title="JavaScript" number={65}/>
-                <Skill title="HTML" number={58}/>
+                <Skill title="HTML" number={57}/>
                 <Skill title="CSS" number={60}/>
                 <Skill title="Storybook" number={68}/>
                 <Skill title="Material UI" number={67}/>

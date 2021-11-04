@@ -15,14 +15,14 @@
     svg {
       position: absolute;
 
-      circle {
+      /*circle {
         fill: none;
         stroke: #ffb400;
         stroke-width: 10px;
         stroke-dasharray: 472;
         stroke-dashoffset: 472;
         animation: anim 2s linear forwards;
-      }
+      }*/
     }
 
     .inner {
@@ -51,12 +51,11 @@
   }
 }
 
-@keyframes anim {
+/*@keyframes anim {
   100%{
-    stroke-dashoffset: 165;
+    stroke-dashoffset: 0;
   }
-
-}
+}*/
 
 @media screen and (max-width: 750px) {
   .profInfoDiv {
