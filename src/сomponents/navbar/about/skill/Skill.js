@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import s from "./Skill.module.scss";
 import {CircleAnimation} from "./CircleAnimation";
 
-export const Skill = (props) => {
+export const Skill = React.memo((props) => {
     const [count, setCount] = useState(0)
 
     useEffect(() => {
@@ -15,7 +15,7 @@ export const Skill = (props) => {
         }
 
         return () => clearInterval(idInterval)
-    }, [count])
+    }, [count, props.number])
 
 
     return (
@@ -38,6 +38,6 @@ export const Skill = (props) => {
             <div className={s.text}>{props.title}</div>
         </div>
     )
-}
+})
 
 

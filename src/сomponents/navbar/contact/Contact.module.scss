@@ -28,14 +28,16 @@
 
 .contactForm {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 60px 180px;
     grid-column-gap: 20px;
     column-gap: 10px;
     grid-row-gap: 30px;
     row-gap: 15px;
 }
+.divInput{
 
+}
 .divTextarea {
     grid-column: 1/4;
 }
@@ -49,6 +51,7 @@
     padding: 11px 26px;
     margin-bottom: 30px;
     border-radius: 30px;
+    width: 400px
 }
 
 .textarea {

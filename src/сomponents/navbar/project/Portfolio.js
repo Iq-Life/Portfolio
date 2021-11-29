@@ -2,16 +2,18 @@ import React from "react";
 import s from "./Projects.module.scss";
 import container from "../../containerModels/Container.module.css"
 import {Project} from "./Project";
-import todo from "../../../assets/img/todolist.png"
+import todo from "../../../assets/img/todolist.jpeg"
 import soc from "../../../assets/img/social.jpg"
 import test from "../../../assets/img/test2.png"
+import teachJour from "../../../assets/img/teachersJournal.jpg"
 
 
 function Portfolio() {
-    const keyStyle = {
+    const photosProject = {
         social: {backgroundImage: `url(${soc})`},
         todolist: {backgroundImage: `url(${todo})`},
-        test: {backgroundImage: `url(${test})`}
+        test: {backgroundImage: `url(${test})`},
+        teachersJournal: {backgroundImage: `url(${teachJour})`}
     }
 
 
@@ -24,20 +26,28 @@ function Portfolio() {
             <div className={s.projectsBlock}>
                 <Project
                     title={"Social Network"}
-                    text={"Email: free@samuraijs.com"+" Password: free "}
-                    style={keyStyle.social}
+                    text={"Email: free@samuraijs.com  Password: free "}
+                    style={photosProject.social}
                     navLink={"https://Iq-Life.github.io/SocialNetwork#/login/"}
                 />
                 <Project
                     title={"Todolist"}
-                    text={"Email: free@samuraijs.com"+" Password: free "}
-                    style={keyStyle.todolist}
+                    text={"Email: free@samuraijs.com Password: free "}
+                    style={photosProject.todolist}
                     navLink={"https://Iq-Life.github.io/Todolist"}
+                />
+                <Project
+                    title={"Teacher's journal"}
+                    text={"This table of students, it helps to keep a convenient and strictly filled teacher's journal :book: visits and grades in\n" +
+                    "the classroom. It will also easily help to calculate which of the students will receive an automatic credit by calculating according\n" +
+                    "to the formula (average score > 4 and the share of missed classes for a disrespectful reason <=10%)\n"}
+                    style={photosProject.teachersJournal}
+                    navLink={"https://Iq-Life.github.io/Table/#/"}
                 />
                 <Project
                     title={"Test tasks"}
                     text={"Тестовые задачи"}
-                    style={keyStyle.test}
+                    style={photosProject.test}
                     navLink={"https://iq-life.github.io/React-homework/#/"}
                 />
             </div>
