@@ -11,7 +11,7 @@ export const Project = (props) => {
             </div>
             <div className={s.projectInfo}>
                 <h3>{props.title}</h3>
-                <p>{props.text}</p>
+                <p style={{whiteSpace: 'pre-wrap'}}>{props.text}</p>
             </div>
         </div>
     )

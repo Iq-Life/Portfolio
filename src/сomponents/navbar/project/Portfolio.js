@@ -26,13 +26,20 @@ function Portfolio() {
             <div className={s.projectsBlock}>
                 <Project
                     title={"Social Network"}
-                    text={"Email: free@samuraijs.com  Password: free "}
+                    text={'Для входа используйте :\nEmail: free@samuraijs.com\nPassword: free\n'+
+                    'This application is written in TS based on the OOP principle. It is written in class components' +
+                    ' using the Redux, Redux-thunk, React-router-dom libraries. Communication with the server was used' +
+                    ' through the REST API and the axios library.'}
                     style={photosProject.social}
                     navLink={"https://Iq-Life.github.io/SocialNetwork#/login/"}
                 />
                 <Project
                     title={"Todolist"}
-                    text={"Email: free@samuraijs.com Password: free "}
+                    text={'Для входа используйте :\nEmail: free@samuraijs.com\nPassword: free\n'+
+                    'This application is written in TS, in which I used the TDD principle and used a storybook.'+
+                    'It is written in functional components using the Redux libraries, Redux Toolkit, Redux-thunk,'+
+                    'React-router-dom. Communication with the server was used through the REST API and the axios library.' +
+                    'For styling, I used the Material UI library'}
                     style={photosProject.todolist}
                     navLink={"https://Iq-Life.github.io/Todolist"}
                 />
