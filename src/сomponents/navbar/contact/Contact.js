@@ -1,5 +1,5 @@
 import React from "react";
-import container from "../../containerModels/Container.module.css";
+import container from "../../containerModels/Container.module.scss";
 import s from "./Contact.module.scss";
 import {Button} from "../../containerModels/Button";
 import paperPlane from "../../../assets/img/paper_plane_icon_w.png"

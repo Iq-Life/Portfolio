@@ -1,10 +1,11 @@
 import React from "react";
 import s from './About.module.scss';
-import container from '../../containerModels/Container.module.css';
+import container from '../../containerModels/Container.module.scss';
 import {Button} from "../../containerModels/Button";
 import downloadCV from "../../../assets/img/download_icon_w.png"
 import CV from "../../../assets/cv/CV-Vavilin-Pavel-React-Redux.pdf"
 import {Skill} from "./skill/Skill";
+import {Title} from "../../containerModels/Titel";
 
 function About() {
 
@@ -18,12 +19,9 @@ function About() {
 
     return (
         <div className={container.page}>
-            <div className={container.title}>
-                <h1>ABOUT <span>ME</span></h1>
-                <div className={container.backTitle}>RESUME</div>
-            </div>
+            <Title firstTitle='about' secondTitle='me' backTitle='resume'/>
             <div className={s.profInfo}>
-                <div className={s.profInfoTitle}>
+                <div>
                     <h2>PERSONAL INFOS</h2>
                 </div>
                 <div className={s.profInfoDiv}>
@@ -62,6 +60,7 @@ function About() {
                 <Skill title="CSS" number={60}/>
                 <Skill title="Storybook" number={68}/>
                 <Skill title="Material UI" number={67}/>
+                <Skill title="REST API" number={70}/>
             </div>
             <br/>
             <br/>

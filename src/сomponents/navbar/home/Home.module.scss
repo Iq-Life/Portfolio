@@ -1,3 +1,4 @@
+@import "./src/common/styles/sass/variables";
 .colorBlock {
   position: fixed;
   height: 200%;
@@ -5,7 +6,7 @@
   transform: rotate(-15deg);
   left: -83%;
   top: -50%;
-  background-color: #ffb400;
+  background-color: $primaryColor;
 }
 
 .block {
@@ -17,7 +18,7 @@
 
   .ava {
     background-image: url(../../../assets/img/Samurai.jpg);
-    //box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+    box-shadow: 0 0 10px $bgColor;
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
@@ -27,13 +28,13 @@
   }
 
   .text {
-    color: #fff;
     line-height: 30px;
     width: 50%;
     font-family: 'Open Sans', sans-serif;
+    z-index: 1;
 
     .h {
-      color: #ffb400;
+      color: $primaryColor;
       font-size: 40px;
       line-height: 40px;
       margin-bottom: 0;
@@ -49,23 +50,33 @@
       line-height: 25px;
     }
   }
+
+}
+
+@media screen and (max-width: 1125px) {
+  .colorBlock {
+    background-color: $bgColor;
+  }
+  .block {
+    justify-content: center;
+    flex-direction: column;
+    .ava{
+      box-shadow: 0 0 10px $primaryColor;
+    }
+  }
 }
 
 @media screen and (max-width: 875px) {
   .block {
     justify-content: center;
-    margin: 15px 0;
+    flex-direction: column;
+    margin: 20px 0;
 
     .ava {
       border-radius: 50%;
       width: 270px;
       height: 270px;
-      border: 4px solid #252525;
-      background-image: url(../../../assets/img/Samurai.jpg);
-
-      background-size: cover;
-      background-repeat: no-repeat;
-      z-index: 1;
+      border: 4px solid $bgSecondColor;
       margin-bottom: 20px;
     }
 
@@ -90,6 +101,5 @@
   }
   .colorBlock {
     z-index: -1;
-    background-color: #111;
   }
 }

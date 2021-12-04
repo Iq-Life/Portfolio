@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Home.module.scss"
-import container from "../../containerModels/Container.module.css"
+import container from "../../containerModels/Container.module.scss"
 import {Button} from "../../containerModels/Button";
 import aboutMe from "../../../assets/img/next_icon_w.png"
 import {NavLink} from "react-router-dom";

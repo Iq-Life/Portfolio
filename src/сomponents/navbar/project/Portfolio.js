@@ -1,11 +1,12 @@
 import React from "react";
 import s from "./Projects.module.scss";
-import container from "../../containerModels/Container.module.css"
+import container from "../../containerModels/Container.module.scss"
 import {Project} from "./Project";
 import todo from "../../../assets/img/todolist.jpeg"
 import soc from "../../../assets/img/social.jpg"
 import test from "../../../assets/img/test2.png"
 import teachJour from "../../../assets/img/teachersJournal.jpg"
+import {Title} from "../../containerModels/Titel";
 
 
 function Portfolio() {
@@ -19,10 +20,7 @@ function Portfolio() {
 
     return (
         <div className={container.page}>
-            <div className={container.title}>
-                <h1><span>MY</span> PROJECTS</h1>
-                <div className={container.backTitle}>WORKS</div>
-            </div>
+            <Title firstTitle='my' secondTitle='projects' backTitle='works'/>
             <div className={s.projectsBlock}>
                 <Project
                     title={"Social Network"}
@@ -45,9 +43,10 @@ function Portfolio() {
                 />
                 <Project
                     title={"Teacher's journal"}
-                    text={"This table of students, it helps to keep a convenient and strictly filled teacher's journal :book: visits and grades in\n" +
-                    "the classroom. It will also easily help to calculate which of the students will receive an automatic credit by calculating according\n" +
-                    "to the formula (average score > 4 and the share of missed classes for a disrespectful reason <=10%)\n"}
+                    text={"This table of students, it helps to keep a convenient and strictly filled teacher's journal " +
+                    ":book: visits and grades in the classroom. It will also easily help to calculate which of the " +
+                    "students will receive an automatic credit by calculating according to the formula " +
+                    "(average score > 4 and the share of missed classes for a disrespectful reason <=10%)"}
                     style={photosProject.teachersJournal}
                     navLink={"https://Iq-Life.github.io/Table/#/"}
                 />

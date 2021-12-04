@@ -1,3 +1,5 @@
+@import "./src/common/styles/sass/variables.scss";
+
 .projectsBlock {
   width: 100%;
   margin: auto 0;
@@ -11,7 +13,7 @@
   flex-direction: column;
   text-align: center;
   width: 560px;
-  margin: 0 20px 15px 20px;
+  margin: 0 20px 20px 20px;
 
   .imgProject {
     position: relative;
@@ -35,10 +37,11 @@
   }
 
   .projectInfo {
-    background-color: #252525;
+    background-color: $bgSecondColor;
     padding: 0 20px;
     margin-bottom: 20px;
   }
+
 }
 
 

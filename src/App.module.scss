@@ -1,0 +1,11 @@
+@import "./common/styles/sass/variables.scss";
+.all {
+    background-color: $bgColor;
+    color:$textColor;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+
+}

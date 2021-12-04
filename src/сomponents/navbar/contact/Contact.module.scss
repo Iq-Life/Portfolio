@@ -1,122 +1,107 @@
+@import "./src/common/styles/sass/variables.scss";
+
 .allBlock {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .block1 {
-    width: 300px;
-}
+  width: 300px;
 
-.p {
-    font-family: 'Open Sans', sans-serif;
+  .p {
     font-size: 13px;
-    color: #fff;
     font-weight: 500;
     line-height: 1.3;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
-}
+  }
 
-.ulContact {
+  .ulContact {
     display: flex;
     justify-content: space-around;
-    padding: 0;
+
+    .li {
+      padding: 0;
+      background: $bgSecondColor;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        background: $primaryColor;
+      }
+
+      .svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+  }
+
 }
 
 .contactForm {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 60px 180px;
-    grid-column-gap: 20px;
-    column-gap: 10px;
-    grid-row-gap: 30px;
-    row-gap: 15px;
-}
-.divInput{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 60px 180px;
+  grid-column-gap: 20px;
+  column-gap: 10px;
+  grid-row-gap: 30px;
+  row-gap: 15px;
 
-}
-.divTextarea {
-    grid-column: 1/4;
-}
-
-.input {
-    border: 1px solid #111;
-    background: #252525;
-    color: #fff;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 11px 26px;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    width: 400px
-}
-
-.textarea {
-    padding: 11px 26px;
-    margin-bottom: 30px;
-    border: 1px solid #111;
-    background: #252525;
-    color: #fff;
-    box-sizing: border-box;
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-}
-.li {
-    padding: 0;
-    background: #2b2a2a;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &:hover{
-        background: #ffb400;
-    }
-    .svg{
-        width: 24px;
-        height: 24px;
-    }
-}
-
-
-@media screen and (max-width: 900px) {
-    .contactForm {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
+  .divInput {
     .input {
-        border: 1px solid #111;
-        background: #252525;
-        color: #fff;
-        height: 100%;
-        box-sizing: border-box;
-        padding: 11px 26px;
-        width: 100%;
-        margin-bottom: 30px;
-        border-radius: 30px;
+      border: 1px solid #111;
+      background: $bgSecondColor;
+      color: $textColor;
+      height: 100%;
+      box-sizing: border-box;
+      padding: 11px 26px;
+      margin-bottom: 30px;
+      border-radius: 30px;
+      width: 400px
     }
+  }
 
-    .divTextarea {
-        grid-column: 1/4;
-        margin-bottom: 30px;
-    }
+  .divTextarea {
+    grid-column: 1/4;
 
     .textarea {
-        padding: 11px 26px;
-        margin-bottom: 30px;
-        border: 1px solid #111;
-        background: #252525;
-        color: #fff;
-        box-sizing: border-box;
-        border-radius: 30px;
-        width: 100%;
-        height: 100%;
+      padding: 11px 26px;
+      margin-bottom: 30px;
+      border: 1px solid $bgColor;
+      background: $bgSecondColor;
+      color: $textColor;
+      box-sizing: border-box;
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
     }
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .contactForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .divInput {
+    width: 200px;
+
+    .input {
+      width: 100px;
+    }
+  }
+
+  .divTextarea {
+    margin-bottom: 30px;
+  }
+
 }
