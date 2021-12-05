@@ -1,4 +1,4 @@
-import container from "./Container.module.scss";
+import container from "./Title.module.scss";
 import React from "react";
 
 export const Title = ({firstTitle, secondTitle, backTitle}) => {

@@ -26,7 +26,6 @@ function Home() {
                         After working as a freelancer, I would like to find a
                         full-time project job in a creative company with
                         relevant tasks and a cohesive team.
-
                     </p>
                     <NavLink to={"/about"}>
                         <Button text="more about me" icon={aboutMe}/>

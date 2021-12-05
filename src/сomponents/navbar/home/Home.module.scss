@@ -17,10 +17,12 @@
   width: 100%;
 
   .ava {
-    background-image: url(../../../assets/img/Samurai.jpg);
+    background:{
+      image: url(../../../assets/img/Samurai.jpg);
+      size: cover;
+      repeat: no-repeat;
+    }
     box-shadow: 0 0 10px $bgColor;
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 650px;
     width: 450px;
     border-radius: 30px;
@@ -30,7 +32,6 @@
   .text {
     line-height: 30px;
     width: 50%;
-    font-family: 'Open Sans', sans-serif;
     z-index: 1;
 
     .h {

@@ -7,14 +7,12 @@ import codeWars from '../../../assets/img/brand_codewars.png';
 import telegram from '../../../assets/img/paper-plane_32_w.png';
 import gitHub from '../../../assets/img/github_git.png';
 import linkedIn from '../../../assets/img/linked_in.png';
+import {Title} from "../../containerModels/Titel";
 
 function Contact() {
     return (
         <div className={container.page}>
-            <div className={container.title}>
-                <h1>GET IN <span>TOUCH</span></h1>
-                <div className={container.backTitle}>CONTACT</div>
-            </div>
+            <Title firstTitle='get in ' secondTitle='touch' backTitle='contact'/>
             <div className={s.allBlock}>
                 <div className={s.block1}>
                     <div>

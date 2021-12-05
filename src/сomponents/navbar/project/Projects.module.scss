@@ -21,9 +21,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background:{
+      position: center;
+      size: cover;
+      repeat: no-repeat;
+    }
 
     &::before {
       position: absolute;
@@ -43,5 +45,3 @@
   }
 
 }
-
-
